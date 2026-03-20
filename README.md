@@ -68,6 +68,6 @@ Selecting `groceries/` will open a new file `groceries/00004.md`
 
 # Why is this useful?
 
-For me, it is for creating grocery lists. I've historically used the _Daily notes_ core plugin to create my next grocery list. But what if my next grocery shop isn't on the day that I created the note?
+For me, it is for creating grocery lists. I've historically used the _Daily notes_ core plugin to create my next grocery list. But what if my next grocery shopping trip isn't on the day that I created the note?
 
 This plugin allows me to easily refer to a "current note" for a particular purpose, and then create a new one when I have determined the current note has expired.
