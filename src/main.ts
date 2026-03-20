@@ -24,7 +24,7 @@ function openNext(app: App) {
 }
 
 export default class IncrementalFilesPlugin extends Plugin {
-	async onload() {
+	onload() {
 		this.addCommand({
 			id: "open-last-incremental-file-in-folder",
 			name: "Open last incremental file in folder",
