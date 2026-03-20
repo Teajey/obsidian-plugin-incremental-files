@@ -1,9 +1,5 @@
 import { App, Plugin, Notice } from "obsidian";
 
-import {
-	DEFAULT_SETTINGS,
-	type IncrementalFilenamesPluginSettings as Settings,
-} from "./settings";
 import { FolderSuggestModal } from "./folder-suggest-modal";
 import { lastIncrementalFile, nextIncrementalName } from "./increment";
 
@@ -28,11 +24,7 @@ function openNext(app: App) {
 }
 
 export default class IncrementalFilenamesPlugin extends Plugin {
-	settings!: Settings;
-
 	async onload() {
-		await this.loadSettings();
-
 		this.addCommand({
 			id: "open-last-incremental-file-in-folder",
 			name: "Open last incremental file in folder",
@@ -67,16 +59,4 @@ export default class IncrementalFilenamesPlugin extends Plugin {
 	}
 
 	onunload() {}
-
-	async loadSettings() {
-		this.settings = Object.assign(
-			{},
-			DEFAULT_SETTINGS,
-			(await this.loadData()) as Partial<Settings>,
-		);
-	}
-
-	async saveSettings() {
-		await this.saveData(this.settings);
-	}
 }
