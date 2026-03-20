@@ -2632,9 +2632,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"obsidian-plugin-incremental-filenames@workspace:.":
+"obsidian-plugin-incremental-files@workspace:.":
   version: 0.0.0-use.local
-  resolution: "obsidian-plugin-incremental-filenames@workspace:."
+  resolution: "obsidian-plugin-incremental-files@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^2.4.7"
     "@eslint/js": "npm:^10.0.1"

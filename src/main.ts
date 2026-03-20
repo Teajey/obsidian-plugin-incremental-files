@@ -23,7 +23,7 @@ function openNext(app: App) {
 	}).open();
 }
 
-export default class IncrementalFilenamesPlugin extends Plugin {
+export default class IncrementalFilesPlugin extends Plugin {
 	async onload() {
 		this.addCommand({
 			id: "open-last-incremental-file-in-folder",

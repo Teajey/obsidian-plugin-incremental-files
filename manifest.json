@@ -1,9 +1,9 @@
 {
-	"id": "incremental-filenames",
-	"name": "Incremental filenames",
+	"id": "incremental-files",
+	"name": "Incremental files",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Folder-scoped incremental filenames.",
+	"description": "Folder-scoped incremental files.",
 	"author": "Teajey",
 	"authorUrl": "https://github.com/Teajey",
 	"isDesktopOnly": false

@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-plugin-incremental-filenames",
+	"name": "obsidian-plugin-incremental-files",
 	"version": "1.0.0",
-	"description": "Use incremental filenames in Obsidian",
+	"description": "Folder-scoped incremental files for Obsidian.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
