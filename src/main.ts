@@ -19,7 +19,7 @@ async function getTemplateContent(app: App, folderPath: string): Promise<string>
 		if (!(templates instanceof TFolder) || folderPath.contains("/")) {
 			return "";
 		}
-		const template = templates.children.find((x) => x.name.substring(x.name.lastIndexOf('.')));
+		const template = templates.children.find((x) => folderPath == x.name.substring(0, x.name.lastIndexOf('.')));
 		if (!(template instanceof TFile)) {
 			return "";
 		}
